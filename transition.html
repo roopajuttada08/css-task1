@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            width: 100%;
+           
+        }
+        .child{
+            
+            padding-left: 20px;
+            color:blueviolet;
+            display: inline-block;
+        }
+        .drop{
+            background-color: none;
+            color: black;
+            display: none;
+        }
+        .child:hover{
+            color: grey;
+        }
+        .child:hover .drop{
+            transition-property: color;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="child">
+        <h2 class="ab">COURCES</h2>
+    <div class="drop">
+            <P>full stack python devp</P>
+            <p>full stack java devp</p>
+            <p>Cloud/devOps</p>
+            <p>AI & ML</p>
+            </div>
+
+        </div>
+
+        <div class="child">
+            <h2 class="ab">TUTORIALS</h2>
+            <div class="drop">
+              <p>Python</p>
+            <p>Java</p>
+            <p>Devops</p>
+            <p>Software & tools</p>
+            </div>
+
+        </div>
+
+        <div class="child">
+            <h2 class="ab">PRACTICE</h2>
+            <div class="drop">
+                 <p>Practice coding problems</p>
+                 <p>Problem of the day</p>
+           
+            </div>
+
+        </div>
+        
+        <div class="child">
+            <h2 class="ab">Jobs</h2>
+            <div class="drop">
+                <p>Apply Now!</p>
+            <p>Post jobs</p>
+            </div>
+
+        </div>
+        
+
+        
+        
+    </div>
+</body>
+</html>
